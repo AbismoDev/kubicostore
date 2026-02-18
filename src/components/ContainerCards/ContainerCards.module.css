@@ -1,0 +1,15 @@
+.containerCards {
+  flex-direction: column;
+  display: flex;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .containerCards {
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 40px;
+  }
+}

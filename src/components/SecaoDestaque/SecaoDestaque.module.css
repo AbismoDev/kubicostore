@@ -1,0 +1,17 @@
+.secaoDestaque {
+  background-color: var(--cor-secao-bg-destaque);
+}
+
+.containerDestaque {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+.containerDestaque h2 {
+  font-size: var(--tamanho-subtitulo-secao);
+  font-family: var(--font-titulo);
+  color: var(--cor-titulo);
+  font-weight: 300;
+}

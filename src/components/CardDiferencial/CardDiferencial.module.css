@@ -1,0 +1,32 @@
+.card {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 180px;
+  gap: 10px;
+}
+
+.card img {
+  width: 70px;
+}
+
+.card h3 {
+  font-size: var(--tamanho-subtitulo-card);
+  font-family: var(--font-titulo);
+  color: var(--cor-titulo);
+  font-weight: 500;
+}
+
+.card p {
+  font-size: var(--tamanho-texto);
+  font-family: var(--font-texto);
+  color: var(--cor-paragrafo);
+  text-align: center;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 360px;
+  }
+}

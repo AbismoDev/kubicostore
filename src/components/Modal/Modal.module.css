@@ -1,0 +1,43 @@
+.containerModal {
+  background-color: var(--cor-secao-bg-destaque);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.headerModal {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 60px;
+}
+
+.headerModal button {
+  background-color: transparent;
+  border: 0;
+}
+
+.secaoLinks {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+  padding-top: 0;
+  display: flex;
+}
+
+.containerLinks ul {
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 26px;
+}
+
+.containerLinks a {
+  font-size: var(--tamanho-subtitulo-secao);
+  font-family: var(--font-titulo);
+  color: var(--cor-titulo);
+  text-decoration: none;
+}

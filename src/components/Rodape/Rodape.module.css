@@ -1,0 +1,112 @@
+.rodape {
+  background-color: var(--cor-secao-bg-destaque);
+  border-top: 1px solid var(--cor-card-fundo);
+  padding: 30px 0;
+}
+
+.containerRodapeContainers {
+  flex-direction: column;
+  display: flex;
+  gap: 40px;
+}
+
+.containerRodapeContainers div:nth-of-type(1) h4 {
+  font-size: var(--tamanho-subtitulo-rodape);
+}
+
+.containerRodapeContainers div:nth-of-type(1) li {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.containerRodapeContainers div {
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+
+.containerRodapeContainers div ul {
+  flex-direction: column;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.containerRodapeContainers div a {
+  font-size: var(--tamanho-texto);
+  font-family: var(--font-texto);
+  color: var(--cor-titulo);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.containerRodapeContainers div h4 {
+  font-family: var(--font-titulo);
+  color: var(--cor-titulo);
+  font-weight: 500;
+}
+
+.containerRodapeContainers div:nth-of-type(3) {
+  width: 180px;
+}
+
+.containerRodapeContainers div:nth-of-type(3) h4 {
+  font-size: var(--tamanho-texto);
+}
+
+.containerRodapeContainers div:nth-of-type(3) p {
+  font-size: var(--tamanho-texto-credito);
+  font-family: var(--font-texto);
+  color: var(--cor-paragrafo);
+  text-align: justify;
+}
+
+.containerRodape {
+  flex-direction: column;
+  display: flex;
+  gap: 40px;
+}
+
+.containerRodapeContainers div:nth-of-type(2) h4 {
+  font-size: var(--tamanho-subtitulo-rodape);
+}
+
+.containerRodape div:nth-of-type(2) p {
+  font-size: var(--tamanho-texto-credito);
+  font-family: var(--font-texto);
+  color: var(--cor-titulo);
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+}
+
+.containerRodape div:nth-of-type(2) p a {
+  font-size: var(--tamanho-texto-credito);
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .containerRodapeContainers {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerRodapeContainers {
+    justify-content: space-between;
+  }
+
+  .containerRodapeContainers div a,
+  .containerRodape a {
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .containerRodapeContainers div a:hover,
+  .containerRodape a:hover {
+    opacity: 0.7;
+  }
+}

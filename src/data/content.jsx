@@ -131,7 +131,7 @@ export const rodape = {
       {
         icone: iconWhatsApp,
         titulo: "WhatsApp: (32) 9 9165-7309",
-        url: "tel:+5532991657309",
+        url: "https://api.whatsapp.com/send?phone=5532991657309&text=Ol%C3%A1,%20estava%20no%20seu%20site%20e%20me%20interessei%20pelos%20produtos,%20pode%20me%20dar%20mais%20detalhes%20sobre%20ele?",
       },
       {
         icone: iconInstagram,

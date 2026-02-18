@@ -46,3 +46,12 @@ npm install
 
 # 4. Rode o servidor de desenvolvimento
 npm run dev
+```
+
+🎨 Layout
+O design segue uma estética Dark/Geek, utilizando tons de cinza escuro (Slate) para o fundo e laranja vibrante para os Call-to-Actions (CTAs), garantindo contraste e foco na conversão.
+
+👨‍💻 Autor
+Desenvolvido por Wellington.
+
+Projeto desenvolvido com 💙 e React.

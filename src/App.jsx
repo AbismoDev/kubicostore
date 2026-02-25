@@ -14,8 +14,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<PaginaInicial />} />
-          <Route path="produto/:produtoId" element={<PaginaProduto />} />
-          <Route path="politica-de-troca" element={<PaginaPoliticaTroca />} />
+          <Route path="/produto/:produtoId" element={<PaginaProduto />} />
+          <Route path="/politica-de-troca" element={<PaginaPoliticaTroca />} />
           {/* Falta fazer a página de erro 404 */}
         </Routes>
       </BrowserRouter>

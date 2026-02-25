@@ -4,9 +4,9 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Importamos a pagina
-import PaginaInicial from "./pages/PaginaInicial/PaginaInicial";
-import PaginaProduto from "./pages/PaginaProduto/PaginaProduto";
-import PaginaPoliticaTroca from "./pages/PaginaPoliticaTroca/PaginaPoliticaTroca";
+import PaginaInicial from "./pages/PaginaInicial/PaginaInicial.jsx";
+import PaginaProduto from "./pages/PaginaProduto/PaginaProduto.jsx";
+import PaginaPoliticaTroca from "./pages/PaginaPoliticaTroca/PaginaPoliticaTroca.jsx";
 
 function App() {
   return (

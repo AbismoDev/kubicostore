@@ -16,7 +16,9 @@ const Rodape = ({ tipoPagina }) => {
                 {rodape.container3.links.map((link, index) => (
                   <li key={index}>
                     <img src={link.icone} alt="" />
-                    <a href={link.url}>{link.titulo}</a>
+                    <a href={link.url} target="_blank">
+                      {link.titulo}
+                    </a>
                   </li>
                 ))}
               </ul>
